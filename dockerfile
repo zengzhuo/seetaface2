@@ -12,7 +12,7 @@ WORKDIR /usr/local/jdk
 # 安装openblas
 RUN mkdir -p /usr/local/openblas
 ADD openblas/lib/libopenblas.so /usr/local/openblas/lib/
-ADD /openblas/lib/libopenblas.so.0 /usr/local/openblas/lib/
+ADD openblas/lib/libopenblas.so.0 /usr/local/openblas/lib/
 RUN ln -s /usr/local/openblas/lib/libopenblas.so /usr/lib/
 RUN ln -s /usr/local/openblas/lib/libopenblas.so.0 /usr/lib/
 # 安装protobuf
