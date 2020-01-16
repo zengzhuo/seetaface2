@@ -48,3 +48,6 @@
     docker push zengzhuo/seetaface2:0.0.1
 #### 7.运行容器
     运行容器，启动java程序即可
+	
+####  如果有问题搞不定的可以加我微信咨询
+	![Image text](https://github.com/zengzhuo/seetaface2/blob/master/static/img/wx.jpg)
